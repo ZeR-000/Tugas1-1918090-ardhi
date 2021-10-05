@@ -13,6 +13,7 @@ public class Biodata extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_biodata);
+
         final EditText nama =
                 (EditText)findViewById(R.id.input_nama);
         final EditText nim =
